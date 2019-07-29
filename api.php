@@ -1,5 +1,5 @@
 <?php 
-
+header("Access-Control-Allow-Origin: *");
 $randomArray = [];
 for ($x = 0; $x <= 10; $x++) {
     $dynamicalCreatedData = [];
